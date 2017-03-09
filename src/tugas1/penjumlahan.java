@@ -51,6 +51,12 @@ public class penjumlahan extends javax.swing.JFrame {
 
         jLabel4.setText("HASIL : ");
 
+        Thasil.addActionListener(new java.awt.event.ActionListener() {
+            public void actionPerformed(java.awt.event.ActionEvent evt) {
+                ThasilActionPerformed(evt);
+            }
+        });
+
         Bhitung.setText("HITUNG");
         Bhitung.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
@@ -164,6 +170,10 @@ hasil = angka1+angka2;
 Thasil.setText(String.valueOf(hasil));
         // TODO add your handling code here:
     }//GEN-LAST:event_BhitungActionPerformed
+
+    private void ThasilActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_ThasilActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_ThasilActionPerformed
 
     /**
      * @param args the command line arguments

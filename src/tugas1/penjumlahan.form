@@ -138,6 +138,9 @@
         <Component class="javax.swing.JTextField" name="Tbilangan2">
         </Component>
         <Component class="javax.swing.JTextField" name="Thasil">
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="ThasilActionPerformed"/>
+          </Events>
         </Component>
         <Component class="javax.swing.JButton" name="Bhitung">
           <Properties>
